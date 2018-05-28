@@ -1,0 +1,6 @@
+<form action="" method="post">
+    {% csrf_token %}
+    {{ formulario.as_p }}
+    <p></p>
+    <input type="submit" value="Envia parametros"/>
+</form>
